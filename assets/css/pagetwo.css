@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+html,body,.container{
+  height: 100%;
+}
+
+a:link{text-decoration: none}
+
+body{
+  margin: 0;
+  padding: 0;
+  transition: background-color 1s ease;
+  background-color: #000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: #7A4EAB;
+}
+.color-indigo {
+  background-color: #4332CF;
+}
+.color-blue {
+  background-color: #2F8FED;
+}
+.color-green {
+  background-color: #4DCF42;
+}
+.color-yellow {
+  background-color: #FAEB33;
+}
+.color-orange {
+  background-color: #F19031;
+}
+.color-red {
+  background-color: #F2293A;
+}
+.color-black {
+  background-color: #000;
+}
+.color-white {
+  background-color: #ffffff;
+}
+/* styling for demo, can ignore */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+
+img.img_2{
+  width: 350px;
+  height: auto;
+}
+
+img.img_1{
+  width: 500px;
+  height: auto;
+}
+
+.wrapper{
+  /* position: fixed; */
+  width: 100%;
+  top: 95%;
+  left: 50%;
+  /* transform: (-40%, -40%); */
+  transform: translate(0%, -20%);
+}
+
+.bottom{
+  background-color: #9a83ec;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+transition: all .35s;
+}
+
+.bottom::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #544780;
+  transition: all .35s;
+}
+
+.bottom:hover{
+  color: #fff;
+}
+
+.bottom:hover:after{
+  width: 100%;
+}
+
+a.bottom span{
+  z-index: 3;
+  position: relative;
+}
+
+a.bottom{
+  color: white;
+  font-family: Chewy, 'sans-serif';
+  font-size: 60px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 678px) {
+  img.img_2{
+    width: 200px;
+    height: auto;
+  }
+  img.img_1{
+    width: 250px;
+    height: auto;
+  }
+  a.bottom{
+    color: white;
+    font-family: Chewy, 'sans-serif';
+    font-size: 50px;
+  }
+}
