@@ -9,7 +9,7 @@ a:link{text-decoration: none}
 body{
   margin: 0;
   padding: 0;
-  background-color: #9a83ec;
+  background-color: rgb(221, 139, 159);
 }
 
 html{
@@ -83,15 +83,15 @@ img.img_3{
 
 .cc{
   background: rgb(154,131,236);
-background: linear-gradient(180deg, rgba(154,131,236,1) 0%, rgba(255,255,255,1) 50%);
+background: linear-gradient(180deg, rgba(221, 139, 159,1) 0%, rgba(255,255,255,1) 50%);
 }
 
 #section2{
-  background-color: #9a83ec;
+  background-color: #dd8b9f;
 }
 
 #section3{
-  background-color: #9a83ec;
+  background-color: #dd8b9f;
 }
 
 #section4{

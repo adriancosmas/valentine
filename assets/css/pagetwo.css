@@ -84,7 +84,7 @@ img.img_1{
 }
 
 .bottom{
-  background-color: #9a83ec;
+  background-color: #dd8b9f;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -100,7 +100,7 @@ transition: all .35s;
   width: 0;
   height: 100%;
   overflow: hidden;
-  background: #544780;
+  background: #a76a79;
   transition: all .35s;
 }
 

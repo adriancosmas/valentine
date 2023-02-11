@@ -9,8 +9,8 @@ a:link{text-decoration: none}
 body{
   margin: 0;
   padding: 0;
-  transition: background-color 1s ease;
-  background-color: #000;
+  /* transition: background-color 1s ease; */
+  background-color: #dd8b9f;
 }
 
 html{
@@ -52,7 +52,7 @@ html{
   background-color: #F2293A;
 }
 .color-black {
-  background-color: #000;
+  background-color: #dd8b9f;
 }
 .color-white {
   background-color: #ffffff;
@@ -84,7 +84,7 @@ img.img_1{
 }
 
 .bottom{
-  background-color: #9a83ec;
+  background-color: #dd8b9f;
   height: 150px;
   display: flex;
   justify-content: center;
@@ -100,7 +100,7 @@ transition: all .35s;
   width: 0;
   height: 100%;
   overflow: hidden;
-  background: #9a83ec;
+  background: #dd8b9f;
   transition: all .35s;
 }
 

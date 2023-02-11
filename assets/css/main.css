@@ -9,7 +9,7 @@ a:link{text-decoration: none}
 body{
   margin: 0;
   padding: 0;
-  background-color: #9a83ec;
+  background-color: #dd8b9f;
 }
 
 html{
@@ -32,23 +32,23 @@ html{
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: white;
-  border: 2px solid white;
+  background-color: #bA4D67;
+  border: 2px solid #bA4D67;
   width: 145px;
   padding: 8px 0;
   border-radius: 999px;
   margin-top: 30px;
   transition: ease-in-out;
   font-size: 22px;
-  color: #9a83ec;
+  color: #f1dde1;
   font-family: Chewy, 'sans-serif';
   transition-duration: .2s;
   text-align: center;
 }
 
 .btn_next:hover{
-  background-color: #9a83ec;
-  color: white;
+  background-color: #dd8b9f;
+  color: #bA4D67;
 }
 
 img.title{
